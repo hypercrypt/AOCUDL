@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40F57EA1184494450084E027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EA0184494450084E027 /* Foundation.framework */; };
+		40F57EA6184494450084E027 /* AOCUDL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40F57EA5184494450084E027 /* AOCUDL.h */; };
+		40F57EA8184494450084E027 /* AOCUDL.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57EA7184494450084E027 /* AOCUDL.m */; };
+		40F57EAF184494450084E027 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EAE184494450084E027 /* XCTest.framework */; };
+		40F57EB0184494450084E027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EA0184494450084E027 /* Foundation.framework */; };
+		40F57EB2184494450084E027 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EB1184494450084E027 /* UIKit.framework */; };
+		40F57EB5184494450084E027 /* libAOCUDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57E9D184494450084E027 /* libAOCUDL.a */; };
+		40F57EBB184494450084E027 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40F57EB9184494450084E027 /* InfoPlist.strings */; };
+		40F57EBD184494450084E027 /* AOCUDLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57EBC184494450084E027 /* AOCUDLTests.m */; };
+		40F57EC81844976B0084E027 /* NSObject+AOCUDL.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57EC71844976B0084E027 /* NSObject+AOCUDL.m */; };
+		40F57F361847F18F0084E027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EA0184494450084E027 /* Foundation.framework */; };
+		40F57F381847F18F0084E027 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57F371847F18F0084E027 /* CoreGraphics.framework */; };
+		40F57F391847F18F0084E027 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EB1184494450084E027 /* UIKit.framework */; };
+		40F57F3F1847F18F0084E027 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40F57F3D1847F18F0084E027 /* InfoPlist.strings */; };
+		40F57F411847F18F0084E027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57F401847F18F0084E027 /* main.m */; };
+		40F57F451847F18F0084E027 /* AOCUDLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57F441847F18F0084E027 /* AOCUDLAppDelegate.m */; };
+		40F57F481847F18F0084E027 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F57F461847F18F0084E027 /* Main_iPhone.storyboard */; };
+		40F57F4B1847F18F0084E027 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F57F491847F18F0084E027 /* Main_iPad.storyboard */; };
+		40F57F4E1847F18F0084E027 /* AOCUDLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57F4D1847F18F0084E027 /* AOCUDLViewController.m */; };
+		40F57F501847F18F0084E027 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F57F4F1847F18F0084E027 /* Images.xcassets */; };
+		40F57F6B1847F5270084E027 /* NSObject+AOCUDL.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57EC71844976B0084E027 /* NSObject+AOCUDL.m */; };
+		40F57F6D1847F62B0084E027 /* AOCUDLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F57F6C1847F62B0084E027 /* AOCUDLViewController.xib */; };
+		40F57F6F1848900C0084E027 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F57F6E1848900C0084E027 /* testImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40F57EB3184494450084E027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F57E95184494450084E027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F57E9C184494450084E027;
+			remoteInfo = AOCUDL;
+		};
+		40F57F691847F4CE0084E027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F57E95184494450084E027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F57F341847F18F0084E027;
+			remoteInfo = AOCUDLTestsProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40F57E9B184494450084E027 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				40F57EA6184494450084E027 /* AOCUDL.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		40F57E9D184494450084E027 /* libAOCUDL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAOCUDL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F57EA0184494450084E027 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40F57EA4184494450084E027 /* AOCUDL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOCUDL-Prefix.pch"; sourceTree = "<group>"; };
+		40F57EA5184494450084E027 /* AOCUDL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOCUDL.h; sourceTree = "<group>"; };
+		40F57EA7184494450084E027 /* AOCUDL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOCUDL.m; sourceTree = "<group>"; };
+		40F57EAD184494450084E027 /* AOCUDLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOCUDLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F57EAE184494450084E027 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		40F57EB1184494450084E027 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		40F57EB8184494450084E027 /* AOCUDLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOCUDLTests-Info.plist"; sourceTree = "<group>"; };
+		40F57EBA184494450084E027 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40F57EBC184494450084E027 /* AOCUDLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOCUDLTests.m; sourceTree = "<group>"; };
+		40F57EC61844976B0084E027 /* NSObject+AOCUDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AOCUDL.h"; sourceTree = "<group>"; };
+		40F57EC71844976B0084E027 /* NSObject+AOCUDL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AOCUDL.m"; sourceTree = "<group>"; };
+		40F57F351847F18F0084E027 /* AOCUDLTestsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOCUDLTestsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F57F371847F18F0084E027 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40F57F3C1847F18F0084E027 /* AOCUDLTestsProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOCUDLTestsProject-Info.plist"; sourceTree = "<group>"; };
+		40F57F3E1847F18F0084E027 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40F57F401847F18F0084E027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40F57F421847F18F0084E027 /* AOCUDLTestsProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOCUDLTestsProject-Prefix.pch"; sourceTree = "<group>"; };
+		40F57F431847F18F0084E027 /* AOCUDLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOCUDLAppDelegate.h; sourceTree = "<group>"; };
+		40F57F441847F18F0084E027 /* AOCUDLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOCUDLAppDelegate.m; sourceTree = "<group>"; };
+		40F57F471847F18F0084E027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		40F57F4A1847F18F0084E027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		40F57F4C1847F18F0084E027 /* AOCUDLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOCUDLViewController.h; sourceTree = "<group>"; };
+		40F57F4D1847F18F0084E027 /* AOCUDLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOCUDLViewController.m; sourceTree = "<group>"; };
+		40F57F4F1847F18F0084E027 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40F57F6C1847F62B0084E027 /* AOCUDLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOCUDLViewController.xib; sourceTree = "<group>"; };
+		40F57F6E1848900C0084E027 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F57E9A184494450084E027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57EA1184494450084E027 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F57EAA184494450084E027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57EAF184494450084E027 /* XCTest.framework in Frameworks */,
+				40F57EB5184494450084E027 /* libAOCUDL.a in Frameworks */,
+				40F57EB2184494450084E027 /* UIKit.framework in Frameworks */,
+				40F57EB0184494450084E027 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F57F321847F18F0084E027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57F381847F18F0084E027 /* CoreGraphics.framework in Frameworks */,
+				40F57F391847F18F0084E027 /* UIKit.framework in Frameworks */,
+				40F57F361847F18F0084E027 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40F57E94184494450084E027 = {
+			isa = PBXGroup;
+			children = (
+				40F57EA2184494450084E027 /* AOCUDL */,
+				40F57EB6184494450084E027 /* AOCUDLTests */,
+				40F57F3A1847F18F0084E027 /* AOCUDLTestsProject */,
+				40F57E9F184494450084E027 /* Frameworks */,
+				40F57E9E184494450084E027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40F57E9E184494450084E027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F57E9D184494450084E027 /* libAOCUDL.a */,
+				40F57EAD184494450084E027 /* AOCUDLTests.xctest */,
+				40F57F351847F18F0084E027 /* AOCUDLTestsProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F57E9F184494450084E027 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40F57EA0184494450084E027 /* Foundation.framework */,
+				40F57EAE184494450084E027 /* XCTest.framework */,
+				40F57EB1184494450084E027 /* UIKit.framework */,
+				40F57F371847F18F0084E027 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40F57EA2184494450084E027 /* AOCUDL */ = {
+			isa = PBXGroup;
+			children = (
+				40F57EA5184494450084E027 /* AOCUDL.h */,
+				40F57EA7184494450084E027 /* AOCUDL.m */,
+				40F57EC61844976B0084E027 /* NSObject+AOCUDL.h */,
+				40F57EC71844976B0084E027 /* NSObject+AOCUDL.m */,
+				40F57EA3184494450084E027 /* Supporting Files */,
+			);
+			path = AOCUDL;
+			sourceTree = "<group>";
+		};
+		40F57EA3184494450084E027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F57EA4184494450084E027 /* AOCUDL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40F57EB6184494450084E027 /* AOCUDLTests */ = {
+			isa = PBXGroup;
+			children = (
+				40F57EBC184494450084E027 /* AOCUDLTests.m */,
+				40F57EB7184494450084E027 /* Supporting Files */,
+			);
+			path = AOCUDLTests;
+			sourceTree = "<group>";
+		};
+		40F57EB7184494450084E027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F57EB8184494450084E027 /* AOCUDLTests-Info.plist */,
+				40F57EB9184494450084E027 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40F57F3A1847F18F0084E027 /* AOCUDLTestsProject */ = {
+			isa = PBXGroup;
+			children = (
+				40F57F431847F18F0084E027 /* AOCUDLAppDelegate.h */,
+				40F57F441847F18F0084E027 /* AOCUDLAppDelegate.m */,
+				40F57F461847F18F0084E027 /* Main_iPhone.storyboard */,
+				40F57F491847F18F0084E027 /* Main_iPad.storyboard */,
+				40F57F4C1847F18F0084E027 /* AOCUDLViewController.h */,
+				40F57F4D1847F18F0084E027 /* AOCUDLViewController.m */,
+				40F57F6C1847F62B0084E027 /* AOCUDLViewController.xib */,
+				40F57F4F1847F18F0084E027 /* Images.xcassets */,
+				40F57F3B1847F18F0084E027 /* Supporting Files */,
+			);
+			path = AOCUDLTestsProject;
+			sourceTree = "<group>";
+		};
+		40F57F3B1847F18F0084E027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F57F6E1848900C0084E027 /* testImage.png */,
+				40F57F3C1847F18F0084E027 /* AOCUDLTestsProject-Info.plist */,
+				40F57F3D1847F18F0084E027 /* InfoPlist.strings */,
+				40F57F401847F18F0084E027 /* main.m */,
+				40F57F421847F18F0084E027 /* AOCUDLTestsProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F57E9C184494450084E027 /* AOCUDL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F57EC0184494450084E027 /* Build configuration list for PBXNativeTarget "AOCUDL" */;
+			buildPhases = (
+				40F57E99184494450084E027 /* Sources */,
+				40F57E9A184494450084E027 /* Frameworks */,
+				40F57E9B184494450084E027 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOCUDL;
+			productName = AOCUDL;
+			productReference = 40F57E9D184494450084E027 /* libAOCUDL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40F57EAC184494450084E027 /* AOCUDLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F57EC3184494450084E027 /* Build configuration list for PBXNativeTarget "AOCUDLTests" */;
+			buildPhases = (
+				40F57EA9184494450084E027 /* Sources */,
+				40F57EAA184494450084E027 /* Frameworks */,
+				40F57EAB184494450084E027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F57F6A1847F4CE0084E027 /* PBXTargetDependency */,
+				40F57EB4184494450084E027 /* PBXTargetDependency */,
+			);
+			name = AOCUDLTests;
+			productName = AOCUDLTests;
+			productReference = 40F57EAD184494450084E027 /* AOCUDLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40F57F341847F18F0084E027 /* AOCUDLTestsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F57F631847F1900084E027 /* Build configuration list for PBXNativeTarget "AOCUDLTestsProject" */;
+			buildPhases = (
+				40F57F311847F18F0084E027 /* Sources */,
+				40F57F321847F18F0084E027 /* Frameworks */,
+				40F57F331847F18F0084E027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOCUDLTestsProject;
+			productName = AOCUDLTestsProject;
+			productReference = 40F57F351847F18F0084E027 /* AOCUDLTestsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F57E95184494450084E027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hypercrypt Solutions Ltd.";
+				TargetAttributes = {
+					40F57EAC184494450084E027 = {
+						TestTargetID = 40F57F341847F18F0084E027;
+					};
+				};
+			};
+			buildConfigurationList = 40F57E98184494450084E027 /* Build configuration list for PBXProject "AOCUDL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F57E94184494450084E027;
+			productRefGroup = 40F57E9E184494450084E027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F57E9C184494450084E027 /* AOCUDL */,
+				40F57EAC184494450084E027 /* AOCUDLTests */,
+				40F57F341847F18F0084E027 /* AOCUDLTestsProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F57EAB184494450084E027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57EBB184494450084E027 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F57F331847F18F0084E027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57F4B1847F18F0084E027 /* Main_iPad.storyboard in Resources */,
+				40F57F6D1847F62B0084E027 /* AOCUDLViewController.xib in Resources */,
+				40F57F501847F18F0084E027 /* Images.xcassets in Resources */,
+				40F57F481847F18F0084E027 /* Main_iPhone.storyboard in Resources */,
+				40F57F3F1847F18F0084E027 /* InfoPlist.strings in Resources */,
+				40F57F6F1848900C0084E027 /* testImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F57E99184494450084E027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57EA8184494450084E027 /* AOCUDL.m in Sources */,
+				40F57EC81844976B0084E027 /* NSObject+AOCUDL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F57EA9184494450084E027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57EBD184494450084E027 /* AOCUDLTests.m in Sources */,
+				40F57F6B1847F5270084E027 /* NSObject+AOCUDL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F57F311847F18F0084E027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F57F451847F18F0084E027 /* AOCUDLAppDelegate.m in Sources */,
+				40F57F4E1847F18F0084E027 /* AOCUDLViewController.m in Sources */,
+				40F57F411847F18F0084E027 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40F57EB4184494450084E027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F57E9C184494450084E027 /* AOCUDL */;
+			targetProxy = 40F57EB3184494450084E027 /* PBXContainerItemProxy */;
+		};
+		40F57F6A1847F4CE0084E027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F57F341847F18F0084E027 /* AOCUDLTestsProject */;
+			targetProxy = 40F57F691847F4CE0084E027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40F57EB9184494450084E027 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F57EBA184494450084E027 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40F57F3D1847F18F0084E027 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F57F3E1847F18F0084E027 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40F57F461847F18F0084E027 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F57F471847F18F0084E027 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		40F57F491847F18F0084E027 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F57F4A1847F18F0084E027 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F57EBE184494450084E027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40F57EBF184494450084E027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F57EC1184494450084E027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AOCUDL.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOCUDL/AOCUDL-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40F57EC2184494450084E027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AOCUDL.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOCUDL/AOCUDL-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40F57EC4184494450084E027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOCUDLTestsProject.app/AOCUDLTestsProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOCUDL/AOCUDL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AOCUDLTests/AOCUDLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		40F57EC5184494450084E027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOCUDLTestsProject.app/AOCUDLTestsProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOCUDL/AOCUDL-Prefix.pch";
+				INFOPLIST_FILE = "AOCUDLTests/AOCUDLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		40F57F641847F1900084E027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOCUDLTestsProject/AOCUDLTestsProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AOCUDLTestsProject/AOCUDLTestsProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40F57F651847F1900084E027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOCUDLTestsProject/AOCUDLTestsProject-Prefix.pch";
+				INFOPLIST_FILE = "AOCUDLTestsProject/AOCUDLTestsProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F57E98184494450084E027 /* Build configuration list for PBXProject "AOCUDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F57EBE184494450084E027 /* Debug */,
+				40F57EBF184494450084E027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F57EC0184494450084E027 /* Build configuration list for PBXNativeTarget "AOCUDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F57EC1184494450084E027 /* Debug */,
+				40F57EC2184494450084E027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F57EC3184494450084E027 /* Build configuration list for PBXNativeTarget "AOCUDLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F57EC4184494450084E027 /* Debug */,
+				40F57EC5184494450084E027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F57F631847F1900084E027 /* Build configuration list for PBXNativeTarget "AOCUDLTestsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F57F641847F1900084E027 /* Debug */,
+				40F57F651847F1900084E027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F57E95184494450084E027 /* Project object */;
+}
