@@ -37,7 +37,18 @@
 
 + (instancetype)objectForKeyedSubscript:(id)key
 {
-    return [self requestWithURL:$(NSURL)[key]];
+    if ([key isKindOfClass:[NSString class]])
+    {
+        return [self requestWithURL:$(NSURL)[key]];
+    }
+    else if ([key isKindOfClass:[NSURL class]])
+    {
+        return [self requestWithURL:key];
+    }
+    else
+    {
+        return nil;
+    }
 }
 
 @end
@@ -126,6 +137,17 @@
 + (instancetype)objectAtIndexedSubscript:(NSUInteger)index
 {
     return [self null];
+}
+
+@end
+
+@implementation NSSet (AOCUDL)
+
++ (instancetype)objectForKeyedSubscript:(id)key
+{
+    NSParameterAssert([key isKindOfClass:[NSArray class]]);
+    
+    return [NSSet setWithArray:key];
 }
 
 @end

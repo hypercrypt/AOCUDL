@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		40F57EA1184494450084E027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EA0184494450084E027 /* Foundation.framework */; };
 		40F57EA6184494450084E027 /* AOCUDL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40F57EA5184494450084E027 /* AOCUDL.h */; };
-		40F57EA8184494450084E027 /* AOCUDL.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F57EA7184494450084E027 /* AOCUDL.m */; };
 		40F57EAF184494450084E027 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EAE184494450084E027 /* XCTest.framework */; };
 		40F57EB0184494450084E027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EA0184494450084E027 /* Foundation.framework */; };
 		40F57EB2184494450084E027 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F57EB1184494450084E027 /* UIKit.framework */; };
@@ -67,7 +66,6 @@
 		40F57EA0184494450084E027 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40F57EA4184494450084E027 /* AOCUDL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOCUDL-Prefix.pch"; sourceTree = "<group>"; };
 		40F57EA5184494450084E027 /* AOCUDL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOCUDL.h; sourceTree = "<group>"; };
-		40F57EA7184494450084E027 /* AOCUDL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOCUDL.m; sourceTree = "<group>"; };
 		40F57EAD184494450084E027 /* AOCUDLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOCUDLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F57EAE184494450084E027 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		40F57EB1184494450084E027 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -162,7 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				40F57EA5184494450084E027 /* AOCUDL.h */,
-				40F57EA7184494450084E027 /* AOCUDL.m */,
 				40F57EC61844976B0084E027 /* NSObject+AOCUDL.h */,
 				40F57EC71844976B0084E027 /* NSObject+AOCUDL.m */,
 				40F57EA3184494450084E027 /* Supporting Files */,
@@ -343,7 +340,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F57EA8184494450084E027 /* AOCUDL.m in Sources */,
 				40F57EC81844976B0084E027 /* NSObject+AOCUDL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

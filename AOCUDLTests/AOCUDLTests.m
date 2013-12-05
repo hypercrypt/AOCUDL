@@ -71,12 +71,25 @@
     
     NSURL *httpsURL = NSURLClass[@"https://example.com"];
     XCTAssertEqualObjects(httpsURL.absoluteString, @"https://example.com", @"URL should represent input");
-
 }
 
 - (void)testNSURLRequest
 {
     id NSURLRequestClass = [NSURLRequest class];
+    NSURLRequest *request = NSURLRequestClass[@"http://example.com"];
+    XCTAssert([request isKindOfClass:NSURLRequestClass], @"request should be a %@", NSStringFromClass(NSURLRequestClass));
+    
+    NSURL *url = $(NSURL)[@"http://example.com"];
+    
+    XCTAssertEqualObjects(request, [NSURLRequest requestWithURL:url], @"");
+    
+    XCTAssertEqualObjects($(NSURLRequest)[url], [NSURLRequest requestWithURL:url], @"");
+
+}
+
+- (void)testNSMutableURLRequest
+{
+    id NSURLRequestClass = [NSMutableURLRequest class];
     NSURLRequest *request = NSURLRequestClass[@"http://example.com"];
     XCTAssert([request isKindOfClass:NSURLRequestClass], @"request should be a %@", NSStringFromClass(NSURLRequestClass));
 }
@@ -163,6 +176,17 @@
     
     XCTAssertNotNil(image, @"");
     XCTAssertEqualObjects(image, normalImage, @"");
+}
+
+- (void)testNSSet
+{
+    id object1 = @"A String";
+    id object2 = @2;
+    id object3 = [[NSObject alloc] init];
+    
+    XCTAssertEqualObjects(($(NSSet)[@[object1, object2, object3]]),
+                          ([NSSet setWithObjects:object1, object2, object3, nil]),
+                          @"");
 }
 
 @end

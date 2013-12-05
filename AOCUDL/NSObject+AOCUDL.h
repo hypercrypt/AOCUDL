@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Hypercrypt Solutions Ltd. All rights reserved.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 #import "AOCUDL.h"
 
@@ -32,4 +32,7 @@
 @end
 
 @interface UIImage (AOCUDL) <AOCUDL>
+@end
+
+@interface NSSet (AOCUDL) <AOCUDL>
 @end
