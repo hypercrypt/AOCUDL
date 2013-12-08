@@ -1,8 +1,12 @@
 #Alternative Objective-C User Defined Literals
-AOCUDL was inspired by [Dustin Bachrach](http://www.dbachrach.com/posts/]'s) [OCUDL](https://github.com/dbachrach/OCUDL).
+AOCUDL was inspired by [Dustin Bachrach](http://www.dbachrach.com/posts/)'s [OCUDL](https://github.com/dbachrach/OCUDL).
 
 The purpose of AOCUDL is to provide a simple way to define custom literals for Objective-C. These are correctly typecast, extensible and flexible.
 
+To add this to your project using [CocoaPods](http://cocoapods.org/) just add the following to your podfile:
+
+    pod 'AOCUDL', '~> 1.0'
+    
 ##Example
 
     NSURLRequest *request = $(NSURLRequest)[@"http://hypercrypt.net"];
